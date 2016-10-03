@@ -1,0 +1,2 @@
+leo 123 gerente
+lima 123 funcionario
