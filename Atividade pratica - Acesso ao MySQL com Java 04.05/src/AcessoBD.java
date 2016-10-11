@@ -3,7 +3,7 @@ import java.sql.DriverManager;
 import java.sql.SQLException;
 
 /**
- * Classe respons·vel pela conex„o com banco de dados MySQL
+ * Classe respons√°vel pela conex√£o com banco de dados MySQL
  */
 public class AcessoBD {
 	// -----------------------------------------------------------
@@ -18,8 +18,8 @@ public class AcessoBD {
 	}
 
 	// -----------------------------------------------------------
-	// ObtÈm conex„o com o banco de dados
+	// Obt√©m conex√£o com o banco de dados
 	public Connection obtemConexao() throws SQLException {
-		return DriverManager.getConnection("jdbc:mysql://localhost/tutorial?user=root&password=leo88825690");
+		return DriverManager.getConnection("jdbc:mysql://localhost/tutorial?user=root&password=");
 	}
 }
